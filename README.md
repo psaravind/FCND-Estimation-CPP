@@ -6,7 +6,7 @@ This project is to develop an estimator to be used by a controller to successful
 
 ### Determine the standard deviation of the measurement noise of both GPS X data and Accelerometer X data. ###
 
-After running the scenario "06_NoisySensor", data from the graphs were recorded in the csv files ![config/log/Graph1.txt](https://github.com/psaravind/FCND-Estimation-CPP/blob/master/config/log/Graph1.txt) (GPS X data) and ![./config/log/Graph3.txt](https://github.com/psaravind/FCND-Estimation-CPP/blob/master/config/log/Graph2.txt) (Accelerometer X data).  These files were processed to figure out the standard deviation of the GPS X signal and the IMU Accelerometer X signal and these calculated values were plugged in ![./config/log/Graph3.txt](https://github.com/psaravind/FCND-Estimation-CPP/blob/master/config/6_Sensornoise.txt' for MeasuredStdDev_GPSPosXY and MeasuredStdDev_AccelXY. 
+After running the scenario "06_NoisySensor", data from the graphs were recorded in the csv files [./config/log/Graph1.txt](https://github.com/psaravind/FCND-Estimation-CPP/blob/master/config/log/Graph1.txt) (GPS X data) and [./config/log/Graph3.txt](https://github.com/psaravind/FCND-Estimation-CPP/blob/master/config/log/Graph2.txt) (Accelerometer X data).  These files were processed to figure out the standard deviation of the GPS X signal and the IMU Accelerometer X signal and these calculated values were plugged in [./config/log/Graph3.txt](https://github.com/psaravind/FCND-Estimation-CPP/blob/master/config/6_Sensornoise.txt' for MeasuredStdDev_GPSPosXY and MeasuredStdDev_AccelXY. 
 
 ### Implement a better rate gyro attitude integration scheme in the UpdateFromIMU() function. ###
 
