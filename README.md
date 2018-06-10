@@ -14,8 +14,11 @@ After running the scenario `06_NoisySensor`, data from the graphs were recorded 
 ### Implement a better rate gyro attitude integration scheme in the UpdateFromIMU() function. ###
 
 `Simulation #3 (../config/07_AttitudeEstimation.txt)
+
 PASS: ABS(Quad.Est.E.MaxEuler) was less than 0.100000 for at least 3.000000 seconds
+
 Simulation #4 (../config/07_AttitudeEstimation.txt)
+
 PASS: ABS(Quad.Est.E.MaxEuler) was less than 0.100000 for at least 3.000000 seconds`
 
 ### Implement all of the elements of the prediction step for the estimator. ###
