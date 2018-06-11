@@ -42,7 +42,7 @@ After implementing the magnetometer update in the function `UpdateFromMag()` [./
 
 **PASS: ABS(Quad.Est.E.Yaw-0.000000) was less than Quad.Est.S.Yaw for 59% of the time**
 
-![./animations/Scenario_10.gif](https://github.com/psaravind/FCND-Estimation-CPP/blob/master/animations/Scenario_10.gif).
+![./animations/Scenario_10.gif](https://github.com/psaravind/FCND-Estimation-CPP/blob/master/animations/Simulator_10.gif).
 
 ### Implement the GPS update. ###
 
@@ -52,7 +52,7 @@ After implementing the function `UpdateFromGPS()` [./src/QuadEstimatorEKF.cpp:L2
 
 **PASS: ABS(Quad.Est.E.Pos) was less than 1.000000 for at least 20.000000 seconds**
 
-![./animations/Scenario_11.gif](https://github.com/psaravind/FCND-Estimation-CPP/blob/master/animations/Scenario_11.gif).
+![./animations/Scenario_11.gif](https://github.com/psaravind/FCND-Estimation-CPP/blob/master/animations/Simulator_11.gif).
 
 ### Meet the performance criteria of each step. ###
 
