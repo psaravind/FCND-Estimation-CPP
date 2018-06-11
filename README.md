@@ -48,7 +48,7 @@ After implementing the magnetometer update in the function `UpdateFromMag()` [./
 
 After implementing the function `UpdateFromGPS()` [./src/QuadEstimatorEKF.cpp:L291-L295](https://github.com/psaravind/FCND-Estimation-CPP/blob/master/src/QuadEstimatorEKF.cpp#L291-L295) and tuning the process noise model in `QuadEstimatorEKF.txt`, following image shows the simulation was able to pass the test.
 
-**Simulation #5 (../config/11_GPSUpdate.txt)**
+**Simulation #5 (../config/11_GPSUpdate.txt)** 
 
 **PASS: ABS(Quad.Est.E.Pos) was less than 1.000000 for at least 20.000000 seconds**
 
