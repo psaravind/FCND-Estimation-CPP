@@ -24,7 +24,7 @@ After implementing improved integration scheme at [./src/QuadEstimatorEKF.cpp:L1
 
 **PASS: ABS(Quad.Est.E.MaxEuler) was less than 0.100000 for at least 3.000000 seconds**
 
-![./animations/Scenario_7.gif](https://github.com/psaravind/FCND-Estimation-CPP/blob/master/animations/Scenario_7.gif).
+![./animations/Scenario_7.gif](https://github.com/psaravind/FCND-Estimation-CPP/blob/master/animations/Simulator_7.gif).
 
 ### Implement all of the elements of the prediction step for the estimator. ###
 
