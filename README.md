@@ -14,7 +14,7 @@ After running the scenario `06_NoisySensor`, data from the graphs were recorded 
 
 **PASS: ABS(Quad.IMU.AX-0.000000) was less than MeasuredStdDev_AccelXY for 68% of the time**
 
-![./animations/Scenario_6.gif](https://github.com/psaravind/FCND-Estimation-CPP/blob/master/animations/Scenario_6.gif).
+![./animations/Scenario_6.gif](https://github.com/psaravind/FCND-Estimation-CPP/blob/master/animations/Simulator_6.gif).
 
 ### Implement a better rate gyro attitude integration scheme in the UpdateFromIMU() function. ###
 
